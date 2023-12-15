@@ -41,6 +41,8 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...all]': RouteRecordInfo<'/[...all]', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
+    '/network/useFetch': RouteRecordInfo<'/network/useFetch', '/network/useFetch', Record<never, never>, Record<never, never>>,
+    '/watch/watchTriggerable': RouteRecordInfo<'/watch/watchTriggerable', '/watch/watchTriggerable', Record<never, never>, Record<never, never>>,
   }
 }
 
