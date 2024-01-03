@@ -6,7 +6,7 @@ export function install() {
     .filter(path => !['[...all].vue', 'index.vue'].includes(path))
     .map(path => path.split('/'))
     .forEach((paths) => {
-      let [path, name = ''] = paths
+      let [path, name] = paths
       if (!name)
         [name, path = '/'] = [path, name]
 
