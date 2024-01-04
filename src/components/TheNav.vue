@@ -7,7 +7,7 @@
       <div i-carbon-sun dark:i-carbon-moon />
     </button>
     <a
-      href="https://github.com/yjhtry/css-start-over"
+      href="https://github.com/yjhtry/vueuse-case"
       target="_blank"
       class="rounded p-1"
       hover="bg-gray/30"
