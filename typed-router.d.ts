@@ -42,6 +42,7 @@ declare module 'vue-router/auto/routes' {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...all]': RouteRecordInfo<'/[...all]', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
     '/element/useDraggable': RouteRecordInfo<'/element/useDraggable', '/element/useDraggable', Record<never, never>, Record<never, never>>,
+    '/element/useDropZone': RouteRecordInfo<'/element/useDropZone', '/element/useDropZone', Record<never, never>, Record<never, never>>,
     '/element/useMouse': RouteRecordInfo<'/element/useMouse', '/element/useMouse', Record<never, never>, Record<never, never>>,
     '/network/useFetch': RouteRecordInfo<'/network/useFetch', '/network/useFetch', Record<never, never>, Record<never, never>>,
     '/state/createGlobalState': RouteRecordInfo<'/state/createGlobalState', '/state/createGlobalState', Record<never, never>, Record<never, never>>,
