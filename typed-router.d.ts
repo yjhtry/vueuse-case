@@ -41,6 +41,7 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...all]': RouteRecordInfo<'/[...all]', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
+    '/animation/useAnimate': RouteRecordInfo<'/animation/useAnimate', '/animation/useAnimate', Record<never, never>, Record<never, never>>,
     '/element/useDraggable': RouteRecordInfo<'/element/useDraggable', '/element/useDraggable', Record<never, never>, Record<never, never>>,
     '/element/useDropZone': RouteRecordInfo<'/element/useDropZone', '/element/useDropZone', Record<never, never>, Record<never, never>>,
     '/element/useMouse': RouteRecordInfo<'/element/useMouse', '/element/useMouse', Record<never, never>, Record<never, never>>,
